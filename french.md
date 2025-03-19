@@ -149,7 +149,7 @@ public function index()
 {
     return view('index', ['clients' => $this->client->getWithNewOrders()]);
 }
-
+[Suivre les conventions de nommage de Laravel](#suivre-les-conventions-de-nommage-de-laravel)
 class Client extends Model
 {
     public function getWithNewOrders()
